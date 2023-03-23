@@ -1,0 +1,13 @@
+CI/CD:continuous integration & continue development
+
+All the software we use: website or app, or any operating system - they are in a continuous state of change. We need to
+continuously develop & update these software, so that the customers can use the latest features. Jenkins will help us
+to automate this process:
+1.  Once the software is ready & looks good on the developer's machine,
+    dev pushes that code to the development server. He verifies the changes
+    & runs a few test cases to make sure all works fine.
+2.  Once everything looks good QAs will request to deploy the changes on QA server. We also need to get approvals
+    from Team Leads or managers.
+3.  Once everything looks good & QA gets approval from head or team, write email again to deploy all the changes to
+    staging te server.
+4.  Once all looks good on staging do the same for the production.
